@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Software2KnowledgeCheck1
 {
-    internal class Concrete
+    internal class Concrete : Material
     {
+        internal override string MaterialFirstStep()
+        {
+            return "Lay the foundation.";
+        }
     }
 }
